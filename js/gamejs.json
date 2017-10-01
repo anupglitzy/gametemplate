@@ -1,0 +1,40 @@
+{
+	"gamesscript": [
+		{
+			"gamename": "Home",
+			"gamejs": "js/move-animation.js",
+			"gametemplate": "js/template/game1.html",
+			"gamecss": "css/bird_game.css"
+		},
+		{
+			"gamename": "Game One",
+			"gamejs": "js/dynamic_grid.js",
+			"gametemplate": "js/template/game2.html",
+			"gamecss": "css/dynamic_grid.css"
+		},
+		{
+			"gamename": "Game Two",
+			"gamejs": "js/ticjs.js",
+			"gametemplate": "js/template/game3.html",
+			"gamecss": "css/ticstyle.css"
+		},
+		{
+			"gamename": "Game Three",
+			"gamejs": "js/cargamer.js",
+			"gametemplate": "js/template/game4.html",
+			"gamecss": "css/carcss.css"
+		},
+		{
+			"gamename": "Game Four",
+			"gamejs": "js/puzzle.js",
+			"gametemplate": "js/template/game5.html",
+			"gamecss": "css/puzzle.css"
+		},
+		{
+			"gamename": "Game Five",
+			"gamejs": "js/bobanko.js",
+			"gametemplate": "js/template/game6.html",
+			"gamecss": "css/bobanko.css"
+		}
+	]
+}

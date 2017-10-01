@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+body {
+    background-image:url('http://f0.bcbits.com/z/37/44/374433408-1.jpg');
+    background-repeat:repeat;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin:10;    
+    font-size: 15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    font-size:20px;
+    margin: 5px auto;
+}
+
+input, button{
+    background-color: #000;
+    color: #FFF;
+    border:none;
+    font-size:13px;
+    padding: 1em;
+    margin: 1em;
+}
+
+#clicks {
+   font-size: 50px;
+}
+
+.imagePart {
+    color: #292927;
+    border-style: solid;
+    border-width: 0.08em;
+    margin: -3px -2px;
+}

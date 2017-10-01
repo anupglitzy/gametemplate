@@ -1,0 +1,90 @@
+<script id="test-template-5" type="text/x-handlebars-template">
+
+  <div id='header'>
+  <div class='active' data-bind='style: { width:  Progress() + "%"}, css: LevelColor' id='progress-bar'>
+    <div class='first-half' data-bind='css: { "first-half": Progress()&lt;50 }' id='lines-left'>
+      <span data-bind='text: LinesLeft' id='value'></span>
+      <span>
+        lines to next level
+      </span>
+    </div>
+  </div>
+  <button class='active blue' id='new-game'>Start new Game</button>
+  
+  <div class='level-holder'>
+    <span class='value'>
+      level
+    </span>
+    <span class='value' data-bind='text: Level' id='level'></span>
+  </div>
+</div>
+<br>
+<label class='name'>
+  score
+  <div class='value' data-bind='text: Score' id='score'></div>
+</label>
+<label class='name'>
+  combo
+  <div class='value'>
+    <span data-bind='text: Combo' id='combo'></span>
+    x
+  </div>
+</label>
+<label class='name'>
+  UP NEXT
+  <div data-bind='foreach: NextColors' id='next-cells'>
+    <span class='active' data-bind='css: $data'></span>
+  </div>
+</label>
+<div id='game-board'>
+  <div class='cell' data-x='1' data-y='1'></div>
+  <div class='cell' data-x='1' data-y='2'></div>
+  <div class='cell' data-x='1' data-y='3'></div>
+  <div class='cell' data-x='1' data-y='4'></div>
+  <div class='cell' data-x='1' data-y='5'></div>
+  <div class='cell' data-x='1' data-y='6'></div>
+  <div class='cell' data-x='1' data-y='7'></div>
+  <div class='cell' data-x='2' data-y='1'></div>
+  <div class='cell' data-x='2' data-y='2'></div>
+  <div class='cell' data-x='2' data-y='3'></div>
+  <div class='cell' data-x='2' data-y='4'></div>
+  <div class='cell' data-x='2' data-y='5'></div>
+  <div class='cell' data-x='2' data-y='6'></div>
+  <div class='cell' data-x='2' data-y='7'></div>
+  <div class='cell' data-x='3' data-y='1'></div>
+  <div class='cell' data-x='3' data-y='2'></div>
+  <div class='cell' data-x='3' data-y='3'></div>
+  <div class='cell' data-x='3' data-y='4'></div>
+  <div class='cell' data-x='3' data-y='5'></div>
+  <div class='cell' data-x='3' data-y='6'></div>
+  <div class='cell' data-x='3' data-y='7'></div>
+  <div class='cell' data-x='4' data-y='1'></div>
+  <div class='cell' data-x='4' data-y='2'></div>
+  <div class='cell' data-x='4' data-y='3'></div>
+  <div class='cell' data-x='4' data-y='4'></div>
+  <div class='cell' data-x='4' data-y='5'></div>
+  <div class='cell' data-x='4' data-y='6'></div>
+  <div class='cell' data-x='4' data-y='7'></div>
+  <div class='cell' data-x='5' data-y='1'></div>
+  <div class='cell' data-x='5' data-y='2'></div>
+  <div class='cell' data-x='5' data-y='3'></div>
+  <div class='cell' data-x='5' data-y='4'></div>
+  <div class='cell' data-x='5' data-y='5'></div>
+  <div class='cell' data-x='5' data-y='6'></div>
+  <div class='cell' data-x='5' data-y='7'></div>
+  <div class='cell' data-x='6' data-y='1'></div>
+  <div class='cell' data-x='6' data-y='2'></div>
+  <div class='cell' data-x='6' data-y='3'></div>
+  <div class='cell' data-x='6' data-y='4'></div>
+  <div class='cell' data-x='6' data-y='5'></div>
+  <div class='cell' data-x='6' data-y='6'></div>
+  <div class='cell' data-x='6' data-y='7'></div>
+  <div class='cell' data-x='7' data-y='1'></div>
+  <div class='cell' data-x='7' data-y='2'></div>
+  <div class='cell' data-x='7' data-y='3'></div>
+  <div class='cell' data-x='7' data-y='4'></div>
+  <div class='cell' data-x='7' data-y='5'></div>
+  <div class='cell' data-x='7' data-y='6'></div>
+  <div class='cell' data-x='7' data-y='7'></div>
+</div>
+</script>

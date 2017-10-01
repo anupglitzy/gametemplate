@@ -1,0 +1,60 @@
+<script id="test-template-2" type="text/x-handlebars-template">
+
+ <header>
+
+  <div class="title-bar">
+    <h2>Tic-Tac-Toe</h2>
+  </div>
+  
+  <!-- scorecard -->
+  <div class="scorecard" id="scorecard">
+    <div class="scores">
+      <span id="user-letter-icon"></span>
+      <h4 id="user-wins">User: <span class="game-count" id="user-win-count"></span></h4>
+    </div>
+    <div class="scores">
+      <span id="ai-letter-icon"></span>
+      <h4 id="ai-wins">Computer: <span class="game-count" id="ai-win-count"></span></h4>
+    </div>
+    <div class="scores">
+      <h4 id="tie-games">Ties: <span class="game-count" id="tie-game-count"></span></h4>
+    </div>
+    <div class="scores">
+      <h4 id="streak">Streak:
+            <span class="game-count" id="streak-number"></span>
+            <span class="game-count" id="streak-player"></span>
+          </h4>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="diff-display">
+    <button type="button" class="diff-button">
+      <span id="difficulty-text">Click Here To Change Difficulty</span>
+    </button>
+  </div>
+
+  <!-- gameboard -->
+  <div class="game-board hidden" id="game-board">
+    <div class="row">
+      <div class="game-block" id="1"></div>
+      <div class="game-block" id="4"></div>
+      <div class="game-block" id="7"></div>
+    </div>
+
+    <div class="row">
+      <div class="game-block" id="2"></div>
+      <div class="game-block" id="5"></div>
+      <div class="game-block" id="8"></div>
+    </div>
+
+
+    <div class="row">
+      <div class="game-block" id="3"></div>
+      <div class="game-block" id="6"></div>
+      <div class="game-block" id="9"></div>
+    </div>
+  </div>
+</main>
+</script>

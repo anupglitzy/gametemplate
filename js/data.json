@@ -1,0 +1,28 @@
+{
+  "games": [
+    {
+      "gamename": "Home",
+      "gameimage": "images/tombraider.jpg"
+    },
+    {
+      "gamename": "Game One",
+      "gameimage": "images/hitman.jpg"
+    },
+    {
+      "gamename": "Game Two",
+      "gameimage": "images/superman.jpg"
+    },
+    {
+      "gamename": "Game Three",
+      "gameimage": "images/gta.jpg"
+    },
+    {
+      "gamename": "Game Four",
+      "gameimage": "images/batman.jpg"
+    },
+    {
+      "gamename": "Game Five",
+      "gameimage": "images/assassin.jpg"
+    }
+  ]
+}
